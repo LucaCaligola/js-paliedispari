@@ -13,20 +13,58 @@ const numeroUtente = parseInt(prompt("scegli un numero da 1 a 5"));
 
 
 
-console.log(numeroUtente)
 
-
-function numeroRandom (minNumber, maxNumber) {
-    const numeroComputer = (Math.floor(Math.random() * (maxNumber - minNumber  + 1) + minNumber));
-    return numeroComputer;
+function numeroRandom(minNumber, maxNumber) {
+    const random = (Math.floor(Math.random() * (maxNumber - minNumber  + 1) + minNumber));
+    console.log(random);
+    return random;
 }
 
+const numeroComputer = numeroRandom(1,5);
+
+let somma = numeroUtente + numeroComputer;
 
 
-let somma = (numeroUtente + (numeroRandom(1,5)));
-
-console.log(numeroRandom(1,5));
 console.log(somma);
+
+function oddOrEven(daVerificare, ){
+    if (daVerificare % 2 === 0 ){
+        return "even";
+    }
+    else {
+        return "odd"
+    }
+
+} 
+
+let result = oddOrEven(somma);
+
+if (pariOdispari === result){
+    console.log("YOU WIN!");
+}
+
+else {
+    console.log("YOU LOSE!")
+}
+
+// function multiplo(daAnalizzare, multiploDi) {
+//     if(daAnalizzare % multiploDi === 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// console.log(multiplo(20, 5));
+
+
+
+
+
+
+
+
+
 
 
 
