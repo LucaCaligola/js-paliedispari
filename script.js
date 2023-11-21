@@ -47,43 +47,6 @@ else {
     console.log("YOU LOSE!")
 }
 
-// function multiplo(daAnalizzare, multiploDi) {
-//     if(daAnalizzare % multiploDi === 0) {
-//         return true;
-//     } else {
-//         return false;
-//     }
-// }
-
-// console.log(multiplo(20, 5));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
